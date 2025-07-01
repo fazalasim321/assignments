@@ -1,1 +1,1 @@
-# assignments
+# Assignments AI HUB
