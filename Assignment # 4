@@ -1,0 +1,142 @@
+# Create two variables a = 10 and b = 3.
+#Perform and print: addition (+), subtraction (−), multiplication (×), division (/), modulus (%), exponentiation (), and floor division (//).**
+a = 10
+b = 3
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)    
+print("Multiplication:", a * b)
+print("Division:", a / b) 
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b) 
+print("Floor Division:", a // b) 
+#Compare a and b using comparison operators: ==, !=, >, <, >=, <=
+#Print the result of each comparison.
+print("Equal:", a == b)
+print("Not Equal:", a != b)
+print("Greater Than:", a > b)
+print("Less Than:", a < b)
+print("Greater or Equal:", a >= b)
+print("Less or Equal:", a <= b)
+#Create two boolean variables: x = True, y = False.
+#Perform and print results of: x and y, x or y, and not x.
+x = True
+y = False
+
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
+# Create num = 5 and perform assignment operations: +=, -=, =, /=, %=, *=, //=
+#Print the result after each operation.
+num = 5
+num += 1
+print("+= :", num)
+num -= 2
+print("-= :", num)
+num *= 3
+print("*= :", num)
+num /= 2
+print("/= :", num)
+num %= 4
+print("%= :", num)
+num **= 2
+print("**= :", num)
+num //= 2
+print("//= :", num)
+#Create m = 100, n = 100.
+#Check if they are the same object using is and is not, and print the result.
+m = 100
+n = 100
+print("m is n:", m is n)
+print("m is not n:", m is not n)
+# Create a string text = "Python Programming"
+#Check if "Python" is in text and if "Java" is not in text
+text = "Python Programming"
+print("Python in text:", "Python" in text)
+print("Java not in text:", "Java" not in text)
+#Write a Python program to print all keywords using the keyword module.
+import keyword
+print("Python Keywords:")
+print(keyword.kwlist)
+# Declare: name = "Ali", age = 20, height = 5.9
+#Print their values and data types using the type() function.
+name = "Ali"
+age = 20
+height = 5.9
+
+print(name, type(name))
+print(age, type(age))
+print(height, type(height))
+#Write 5 valid variable names (e.g., user_name, x1, _value, TotalAmount, data123)
+#Also write 3 invalid ones (as comments): 1name, user-name, class
+#Explain why invalid names are not allowed.
+# ✅ Valid
+user_name = "Ahmed"
+x1 = 1
+_value = 100
+TotalAmount = 5000
+data123 = "Data"
+# Create special-naming variables: _hidden = 5, __private = 10, MAX_SIZE = 100
+#Print their values.
+_hidden = 5
+__private = 10
+MAX_SIZE = 100
+
+print(_hidden)
+print(__private)
+print(MAX_SIZE)
+#Assign values in one line: x = 1, y = 2, z = 3
+#Print them.
+x, y, z = 1, 2, 3
+print(x, y, z)
+#Assign same value 0 to a, b, c in one line
+#Print them.
+a = b = c = 0
+print(a, b, c)
+#Create temp = 100, print it, delete it using del, then try to print again and observe the error.
+temp = 100
+print("Before delete:",temp)
+del(temp)
+ #Create a string using triple single quotes: '''Hello'''print it.
+message = '''Hello'''
+print(message)
+#**Create a multi-line string using triple double quotes:
+
+#"""This is line one.\nThis is line two."""
+
+#Print it.**
+text ="""this is line one.
+this is line two."""
+print(text)
+#**Use type() to check and print the data types of:
+
+#A integer
+
+#A float
+
+#A string
+
+#A boolean**
+print(type(10))
+print(type(20.5))
+print(type("Hello"))
+print(type(True)) # bool
+# Create score = 85
+#Check: score > 50 and score < 100
+#Print the result.
+score = 85
+print(score > 50 < 100 )
+#Create message = "Welcome to Python"
+#Use in and not in to check for the word "Python"
+#Print the result.
+message = "Welcome to python"
+print("python" in message)
+print("jawa" in message)
+# Write a code block using only comments that explains what your program does.
+# this programs cover the basics topics of python
+#such as variables, operators,logic types and strings.
+#each part written in a seperate code block.
+#Create data = 123
+#Use id(data) to print its memory address.
+data = 123
+print("Memory data:",id(data))
